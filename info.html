@@ -378,7 +378,47 @@ footer {
     order: 2;
 
   }
+  @media (max-width: 768px) {
 
+    .header-buttons {
+      position: static;
+      margin-top: 1rem;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .back-btn,
+    .bug-report-btn {
+      flex: 1;
+      min-width: 150px;
+      justify-content: center;
+    }
+
+    header {
+      padding: 2rem 1rem;
+    }
+
+    main {
+      padding: 2rem 1.5rem;
+    }
+
+    .choice-container {
+      gap: 1.5rem;
+    }
+
+    .choice-card {
+      padding: 2rem 1.5rem;
+    }
+
+    .icon {
+      font-size: 2.5rem;
+    }
+
+    .choice-card h3 {
+      font-size: 1.3rem;
+    }
+  }
 }
 
 </style>
@@ -391,7 +431,14 @@ footer {
 <h1>Vocabulaire Français–Nederlands</h1>
 
 <p>Groenhove Atheneum Waregem</p>
-
+<div class="header-buttons">
+    <a 
+      href="https://mvanherzeele.github.io/Franse-Nederlandse-woorden/index.html"
+      class="back-btn"
+    >
+      ← Terug
+    </a>
+</div>
 </header>
 
 <main>
